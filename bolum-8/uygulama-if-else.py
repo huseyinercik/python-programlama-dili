@@ -61,7 +61,7 @@ yaziliNotu2 = int(input("2. yazili notunu girin : "))
 sozluNotu = int(input("sozlu notunu girin : "))
 ortalama = (yaziliNotu1 + yaziliNotu2 + sozluNotu) / 3
 
-if(ortalama > 0 and ortalama < 25):
+if(ortalama > -1 and ortalama < 25):
     print(f"Birinci yazili notunuz {yaziliNotu1}, ikinci yazili notunuz {yaziliNotu2}, sozlu notunuz {sozluNotu} oldugundan not ortalamaniz {round(ortalama,2)} cikmistir ve karsiligi 0 'dir")
 elif(ortalama > 24 and ortalama < 45):
     print(f"Birinci yazili notunuz {yaziliNotu1}, ikinci yazili notunuz {yaziliNotu2}, sozlu notunuz {sozluNotu} oldugundan not ortalamaniz {round(ortalama,2)} cikmistir ve karsiligi 1 'dir")
@@ -73,3 +73,5 @@ if(ortalama > 69 and ortalama < 85):
     print(f"Birinci yazili notunuz {yaziliNotu1}, ikinci yazili notunuz {yaziliNotu2}, sozlu notunuz {sozluNotu} oldugundan not ortalamaniz {round(ortalama,2)} cikmistir ve karsiligi 4 'dir")
 if(ortalama > 84 and ortalama < 101):
     print(f"Birinci yazili notunuz {yaziliNotu1}, ikinci yazili notunuz {yaziliNotu2}, sozlu notunuz {sozluNotu} oldugundan not ortalamaniz {round(ortalama,2)} cikmistir ve karsiligi 5 'dir")
+else:
+    print("Hatali not girildi")
