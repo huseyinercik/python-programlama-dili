@@ -17,7 +17,7 @@
 # 0 - 39 -> FF
 
 def notHesapla(satir):
-    satir = satir[-1]
+    satir = satir[:-1]
     liste = satir.split(":")
 
     ogrencininAdi = liste[0]
