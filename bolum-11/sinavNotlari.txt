@@ -1,0 +1,2 @@
+denme deme:34,45,99
+emir ercik:80,90,60
